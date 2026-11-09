@@ -9,11 +9,11 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "crewai>=1.15.37",
+    "ddgs>=9.16.1",
+    "duckduckgo-search>=8.1.1",
+    "langchain-openai>=1.7.4",
+    "langgraph-supervisor>=0.0.31",
+    "python-dotenv>=1.2.4",
+    "trafilatura>=2.3.1",
+    "truststore>=0.10.5",
 ]
-
-[project.scripts]
-ai-analytics-system = "ai_analytics_system:main"
-
-[build-system]
-requires = ["uv_build>=0.12.20,<0.13.0"]
-build-backend = "uv_build"
