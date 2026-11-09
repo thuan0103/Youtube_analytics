@@ -12,6 +12,7 @@ dependencies = [
     "ddgs>=9.16.1",
     "duckduckgo-search>=8.1.1",
     "langchain-openai>=1.7.4",
+    "langfuse>=5.2.0",
     "langgraph-supervisor>=0.0.31",
     "python-dotenv>=1.2.4",
     "trafilatura>=2.3.1",
